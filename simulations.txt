@@ -1,0 +1,5 @@
+--forecast_model=rf --seed=3
+--forecast_model=xbg --seed=2
+--forecast_model=transformers --seed=3
+--forecast_model=linear --seed=10
+--forecast_model=knn --seed=4

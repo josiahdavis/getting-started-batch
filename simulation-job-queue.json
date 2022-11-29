@@ -1,0 +1,11 @@
+{
+    "jobQueueName": "simulation-job-queue",
+    "state": "ENABLED",
+    "priority": 0,
+    "computeEnvironmentOrder": [
+        {
+            "order": 0,
+            "computeEnvironment": "simulation-compute-environment"
+        }
+    ]
+}

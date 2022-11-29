@@ -1,0 +1,8 @@
+{
+  "jobName": "run-simulation",
+  "jobQueue": "simulation-job-queue",
+  "arrayProperties": {
+    "size": 5
+  },
+  "jobDefinition": "run-simulation"
+}

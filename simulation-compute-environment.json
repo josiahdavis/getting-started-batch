@@ -1,0 +1,29 @@
+{
+    "computeEnvironmentName": "simulation-compute-environment",
+    "type": "MANAGED",
+    "state": "ENABLED",
+    "computeResources": {
+        "type": "EC2",
+        "allocationStrategy": "BEST_FIT",
+        "minvCpus": 0,
+        "maxvCpus": 256,
+        "desiredvCpus": 0,
+        "instanceTypes": [
+            "m5"
+        ],
+        "subnets": [
+            ""
+        ],
+        "securityGroupIds": [
+            ""
+        ],
+        "ec2KeyPair": "",
+        "instanceRole": "<my-ec2-instance-role>",
+        "ec2Configuration": [
+            {
+                "imageType": "ECS_AL2"
+            }
+        ]
+    },
+    "serviceRole": "<my-batch-service-role>"
+}

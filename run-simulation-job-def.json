@@ -1,0 +1,21 @@
+{
+  "jobDefinitionName": "run-simulation",
+  "type": "container",
+  "containerProperties": {
+    "image": "<account_id>.dkr.ecr.<region-name>.amazonaws.com/<image-name>",
+    "resourceRequirements": [
+        {
+            "type": "MEMORY",
+            "value": "2500"
+        },
+        {
+            "type": "VCPU",
+            "value": "1"
+        }
+    ],
+    "environment": [
+      { "name" : "S3_INPUT_URI", "value" : "s3://my-input-s3" },
+      { "name" : "S3_OUTPUT_URI", "value" : "s3://my-output-s3" }
+  ]
+  }
+}
