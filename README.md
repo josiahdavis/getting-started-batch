@@ -7,6 +7,8 @@ The initial motivation for learning AWS batch was to scale out a large-scale sim
 * There are inputs read from S3 at runtime.
 * At the end of the job, data is written to S3.
 
+![image](images/arch.png)
+
 ## 0. Build a container image
 
 This container should have the code you will use as well as the text file with the various arguments.
